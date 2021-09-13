@@ -5,29 +5,13 @@
   <!-- Header Row -->
   <header class="row">
     <div class="col--title"><button class="sort-button">OKR Title</button></div>
-    <div class="col--status">Status</div>  
+    <div class="col--status">Status</div>
   </header>
 
   <!--Row -->
   <div class="row" *ngFor="let topic of topics">
-
-    <!-- Title Column -->
-    <div class="col--title">
-      <div class="cell cell--title">
-        <img src="../../assets/icon-buffer-box.png" />
-        <a>{{ topic.title }}</a>
-      </div>
-    </div>
-
-    <!-- Status Column -->
-    <div class="col--status">
-        <div class="cell cell--status">
-          <div class="status-pill">
-            <img src="../../favicon.ico" />
-            <a>{{ topic.status }}</a>
-        </div>
-      </div>
-    </div>
+    <app-topic-item [topic]="topic"></app-topic-item>
   </div>
-</div>
+  <app-topic-pagination></app-topic-pagination>
+  </div>
 </section>

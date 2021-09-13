@@ -1,0 +1,48 @@
+.bottom-bar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.range-selector {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+
+}
+.topics-list-range {
+  width: 64px;
+  font-size: 16px;
+  height: 40px;
+  background: none;
+  &:select {
+    display: none;
+    background: none;
+    border: none;
+  }
+  border: none;
+  font-family: 'PT Sans';
+  border-bottom: 1px solid blue;
+  option {
+    background: none;
+  }
+}
+.pages {
+  position: relative;
+  display: flex;
+  gap: 8px;
+  right: -46px;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 2px;
+  background: #E3EAEE;
+  width: 32px;
+  height: 32px;
+  color: #3E5F72;
+  &:selected {
+    color: #212132;
+  }
+}
