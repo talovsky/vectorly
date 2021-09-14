@@ -1,15 +1,15 @@
 import { Topic } from './topic';
 
-export const TOPICS: Topic[] = 
+export const TOPICS: Topic[] =
 [{
   title: "Reduce churn to <5% annually through customer success",
-  status: "On Track",
+  status: "On track",
 }, {
   title: "Increase positive feedback items and praise from 5 to 15 per quarter",
-  status: "On Track",
+  status: "On track",
 }, {
   title: "Create & launch new mentorship program by the end of Q3",
-  status: "On Track",
+  status: "On track",
 }, {
   title: "Win 1,000 deals worth $10M in bookings by 12/31/17",
   status: "Need help",
@@ -33,13 +33,13 @@ export const TOPICS: Topic[] =
   status: "On track",
 }, {
   title: "Reduce churn to <5% annually through customer success",
-  status: "On Track",
+  status: "On track",
 }, {
   title: "Increase positive feedback items and praise from 5 to 15 per quarter",
-  status: "On Track",
+  status: "On track",
 }, {
   title: "Create & launch new mentorship program by the end of Q3",
-  status: "On Track",
+  status: "On track",
 }, {
   title: "Win 1,000 deals worth $10M in bookings by 12/31/17",
   status: "Need help",

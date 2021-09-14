@@ -1,21 +1,11 @@
-header {
+section {
+  margin: auto;
+
   display: flex;
   padding: 6px 16px 6px 16px;
-  justify-content: space-between;
-  background: white;
   height: 64px;
   align-items: center;
 
-}
-.sort-button {
-  border: none;
-  border-radius: 100px;
-  padding: 6px 16px 6px 16px;
-  font-size: 16px;
-  line-height: 20px;
-  color: #212132;
-  background: #F1F5F7;
-  font-family: 'PT Sans';
 }
 
 .table {
@@ -27,6 +17,8 @@ header {
 }
 .row {
   display: flex;
+  min-width: 763px;
+  background: white;
 }
 .col--title {
   width: 539px;
@@ -35,14 +27,14 @@ header {
   width: 224px;
 }
 .cell {
-  border: solid 1px #F1F5F7; 
+  border: solid 1px #F1F5F7;
   background: white;
 }
 .cell--title {
   display: flex;
   padding: 12px 24px 12px 24px;
   gap: 16px;
-  
+
   img {
     width: 16px;
     height: 32px;

@@ -12,8 +12,10 @@
   <!-- Status Column -->
   <div class="col--status">
     <div class="cell cell--status">
-      <div class="status-pill">
-        <img src="../../favicon.ico" />
+      <div class="status-pill" [ngClass]="{'status--needhelp': topic.status === 'Need help',
+                                           'status--ontrack' : topic.status === 'On track',
+                                           'status--offtrack': topic.status === 'Off track'}">
+        <img src="../../assets/transparent-icon.png"/>
         <a>{{ topic.status }}</a>
       </div>
     </div>
