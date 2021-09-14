@@ -1,38 +1,41 @@
-.bottom-bar {
+.pagination {
+  padding-top: 22px;
   display: flex;
   justify-content: space-between;
   align-content: center;
 }
-.range-selector {
+
+.pagination__range {
   display: flex;
   gap: 24px;
   align-items: center;
-
 }
-.topics-list-range {
+
+.pagination__range-selector {
+  color: var(--black);
   width: 64px;
   font-size: 16px;
   height: 40px;
   background: none;
-  &:select {
-    display: none;
-    background: none;
-    border: none;
-  }
   border: none;
-  font-family: 'PT Sans';
-  border-bottom: 1px solid blue;
+  font-family: var(--font-main);
+  border-bottom: 1px solid #7397AB;
   option {
     background: none;
   }
 }
-.pages {
+
+.pagination__range__caption {
+  color: var(--black-alpha-60)
+}
+
+.pagination__page-selector {
   position: relative;
   display: flex;
   gap: 8px;
   right: -46px;
 }
-.page {
+.pagination__page-selector--nav {
   display: flex;
   justify-content: center;
   align-items: center;

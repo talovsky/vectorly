@@ -1,13 +1,14 @@
-<section>
-  <div><h2>Topic name</h2></div>
+<section class="page__content">
+  <div class="page__table">
+    <div><h2 class="page__title">Topic name</h2></div>
 
-  <div class="table">
-  <!-- Header Row -->
-    <div class=row>
+    <!-- Header Row -->
+    <div class=table__row>
       <app-topic-sort></app-topic-sort>
     </div>
-  <!--Row -->
-  <div class="row" *ngFor="let topic of topics">
+
+    <!--Row -->
+  <div class="table__row" *ngFor="let topic of topics">
     <app-topic-item [topic]="topic"></app-topic-item>
   </div>
   <app-topic-pagination></app-topic-pagination>

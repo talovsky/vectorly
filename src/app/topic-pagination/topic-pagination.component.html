@@ -1,18 +1,17 @@
-<p>topic-pagination works!</p>
-<div class="bottom-bar">
-  <div class="range-selector">
-    <select class="topics-list-range" name="topics-list-range">
+<div class="pagination">
+  <div class="pagination__range">
+    <select class="pagination__range-selector" name="pagination__range-selector">
       <option selected="selected" value="10">10</option>
       <option value="15">15</option>
       <option value="20">20</option>
     </select>
-    <p>Items per page</p>
+    <p class="pagination__range__caption">Items per page</p>
   </div>
-  <div class="pages">
-    <div class="page"><a>←</a></div>
-    <div class="page"><a>2</a></div>
-    <div class="page"><a>3</a></div>
-    <div class="page"><a>4</a></div>
-    <div class="page"><a>→</a></div>
+  <div class="pagination__page-selector">
+    <div class="pagination__page-selector--nav"><a>←</a></div>
+    <div class="pagination__page-selector--nav"><a>2</a></div>
+    <div class="pagination__page-selector--nav"><a>3</a></div>
+    <div class="pagination__page-selector--nav"><a>4</a></div>
+    <div class="pagination__page-selector--nav"><a>→</a></div>
   </div>
 </div>
